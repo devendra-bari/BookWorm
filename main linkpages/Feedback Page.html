@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>Feedback</title>
+   <style>
+    body{
+     margin:0;
+     background-image: url('../images/Bookshelf1.jpg'); 
+     background-repeat: no-repeat; 
+     background-attachment: fixed;
+     background-size: cover;
+	}
+   .column{
+       width:33%;
+       float:center;
+       margin-left: .3cm;
+	     border: 1px solid black;	 
+       padding: 15px;	   
+   }
+   </style>
+  </head>
+  <body>
+   
+   <a href="../Homepage.html"><p><img src="../images/clipart/back2homepage.png" alt="Navigate to Homepage-link" height="35" width="35" style="padding-left: 20px"></a></p>
+   <center>
+   <h2><em>Help us to serve you better with your precious feedback <img src="../images/clipart/Smiley.png" height=16 width=16></em></h2>
+ <div class="column">
+ <form>
+	
+  Enter your name : <input type="text" name="full_name"><br><br>
+  Enter your e-mail : <input type="email" name="email_id"><br><br>
+  
+  Did we fulfilled your expectations?? 
+  <br><input type = "radio" name = "expectation" value = "yes"> Yup! 
+  <br><input type = "radio" name = "expectation" value = "no"> Nah.
+  
+  <br><br>Will you recommend us to your friends, family & relatives ??
+  <br><input type = "radio" name = "recommendation" value = "yes"> Ya,Sure!!
+  <br><input type = "radio" name = "recommendation" value = "no"> Never mind.
+  
+  <br><br>Rate our Service (out of 5 stars) :
+    <select name="rating">
+  <option value="1">*</option>
+  <option value="2">**</option>
+  <option value="3">***</option>
+  <option value="4">****</option>
+  <option value="5" selected>*****</option>
+	</select>
+	<br><br>
+	
+  Which genre/category you liked the most ? :<br>
+   <input type="checkbox" name="novels" value="2">Novels<br>
+   <input type="checkbox" name="selfhelp" value="1">Self-help<br>
+   <input type="checkbox" name="finance" value="3">Self "Finance"<br><br>
+   
+  Why so ? (optional) :
+  <input type="text" name="reason"><br><br>
+  
+  Which book would you like to be reviewed next ??<br>
+  Upload its coverpic and stand a chance to win exciting booksets from us :-)<br><br>
+  <input type = "file" name = "fileupload" accept = "image/*" />
+  <input type = "button" name = "ok"  value = "OK" /><br><br><br>
+  
+  Suggestions/Comments (if any) : <br><br>
+  <textarea rows="5" cols="50" name="suggestion">Enter your Suggestions/Comments here...
+  </textarea><br>
+  
+   <p>This is page 3 : Feedback Page</p>
+   <input type = "hidden" name = "Feedback_page" value = "3" />
+   <input type = "submit" name = "submit" value = "Submit" />
+   <input type = "reset" name = "reset"  value = "Reset" />
+   <button type = "cancel">Cancel</button>
+   
+   <br>
+   
+   <input type = "image" name = "imagebutton" src = "../images/clipart/BookWorm icon.png" height="130" width="120" alt="Homepage_Logo"  /> 
+ 
+ </form>
+ </div>
+ <br>
+ </center>
+ </body> 
+ </html>
